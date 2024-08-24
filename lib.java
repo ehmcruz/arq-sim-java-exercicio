@@ -2,7 +2,7 @@ import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class Main {
+public class lib {
 	public short extract_bits (short value, int bstart, int blength)
 	{
 		short mask = (short)((1 << blength) - 1);
